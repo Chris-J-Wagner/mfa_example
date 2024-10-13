@@ -2,17 +2,11 @@ name: mfa
 channels:
   - conda-forge
   - defaults
-  - pytorch
 dependencies:
   - python=3.10
   - montreal-forced-aligner
-  - pytorch
-  - torchvision
-  - torchaudio
-  - cpuonly
-  - num2words
-  - scipy
   - pip
   - pip:
     - speechbrain
     - praat-textgrids
+    - num2words
